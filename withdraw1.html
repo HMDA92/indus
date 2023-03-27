@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+      <title>Copy Trading</title>
+      <link rel="stylesheet" href="trading home.css">
+
+
+</head>    
+  <body>
+
+    <nav>
+
+
+      <a href="file:///E:/web/index.html">  <img src="E:\indus/logo.png" class="logo"></a>
+      <h2>
+          INDUS
+          </h2>
+
+
+                
+        </nav>
+
+        <div class="content">
+  
+
+  
+            <h1>
+            Deposit <span>your amount:</span>
+             </h1>
+          
+
+             <p1>
+             Please send (polygon matic) in this adress or scan qr code :   <br>
+             </p1> 
+             <p1>Minnimum matic should be equal to 50$</p1> <br>
+            <img src="E:\images/stqw.png">
+
+
+
+              <BR><BR><br>
+
+
+
+
+
+                <div>
+                  <p>Your Crypto Address: <span id="crypto-address">0x04188d5d992e78CC6296CEf6eF556bE7c58DAdbD</span></p>
+                  <button onclick="copyAddress()">Copy Address</button>
+                </div>
+                
+                <script>
+                  function copyAddress() {
+                    const address = document.getElementById("crypto-address");
+                    const range = document.createRange();
+                    range.selectNode(address);
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                    document.execCommand("copy");
+                    window.getSelection().removeAllRanges();
+                    alert("Address copied to clipboard!");
+                  }
+                </script>
+                
+<BR><BR><BR><BR>
+
+                <button onclick="openPopup()">Done</button>
+
+                <div id="popup" style="display:none;">
+                  <p>
+                    After sending amount, your amount will be added for copy trading by our 
+                    experts and profit will be given to you at the auto withdraw 
+                    date in to your adress.
+                  </p>
+                  <button onclick="closePopup()">Close Popup</button>
+                </div>
+                
+                <script>
+                  function openPopup() {
+                    const popup = document.getElementById("popup");
+                    popup.style.display = "block";
+                  }
+                  
+                  function closePopup() {
+                    const popup = document.getElementById("popup");
+                    popup.style.display = "none";
+                  }
+                </script>
+                
+                <BR><BR><BR><BR>
+<P1>__________________________________________________________________________
+  ____________________
+</P1>
+
+
+
+
+
+
+
+
+
+
+
+          
+
+
+
+
+
+
+  </body>         
+
+  </html>

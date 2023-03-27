@@ -1,0 +1,124 @@
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+
+nav{
+      width: 100%;
+      padding: 20PX 0;
+      display: flex;
+      align-items: center;
+
+
+}
+.logo{
+       width: 100px;
+       cursor: pointer;
+       
+}
+
+
+.content{
+
+
+        margin-top: -1%;
+        background: -webkit-linear-gradient(to right, #155799, #159957);  
+
+
+           
+}
+.content h1{
+
+
+         font-size: 73px;
+         margin-bottom: 15;
+         color: rgb(51, 214, 179);
+
+
+}
+.content h1 span{
+         color: rgb(24, 226, 226);
+}
+.content p1{
+          line-height: 22px;
+          font-size: 20px;
+          color: rgb(14, 235, 183);
+          size: 60;
+       
+}
+
+
+h2{
+
+    font-size: 40px;
+    margin-bottom: 15;
+    color: rgb(13, 201, 107);
+
+
+}
+
+.container{
+ 
+ 
+    width: 98%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0 1%;
+    color: #c02d2d;
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+
+
+   }
+.container h3{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-size: 20px;
+    margin-top: 3%;
+}
+.coin-list{
+    margin-top: 10%;
+    position: absolute;
+    right: 15%;
+    bottom: -550px;
+    display: flex;
+    align-items: center;
+ 
+}
+.coin {
+
+  display: inline-block;
+            margin-inline: 30px;
+             margin-top: 10px;
+             background: -webkit-linear-gradient(to right, #1c588a, #12574b);  
+             background: linear-gradient(to right, #15484d, #00ffbf);            
+               color: rgb(19, 38, 41);
+             text-decoration: none;
+             padding: 50px 40px;
+             border-radius: 30px;
+             border: ridge;
+         font-size: 17px;
+         
+
+}
+.coin h3{
+  color: #fff;
+  margin-bottom: 5px;
+}
+.btn{
+
+  color: rgb(0, 0, 0) ;
+  text-decoration: none;
+  border: 1.5px ridge rgb(19, 38, 41); 
+  padding: 10px 30px;
+  background: -webkit-linear-gradient(to right, #1c588a, #12574b);  
+  background: linear-gradient(to right, #15484d, #00ffbf); 
+  border-radius: 100px;
+  border: ridge;
+
+}

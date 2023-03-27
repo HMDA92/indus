@@ -1,0 +1,151 @@
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+ 
+
+}
+ 
+  .container{
+ 
+ 
+     width: 98%;
+     height: 100vh;
+   
+     background-position: center;
+     background-size: cover;
+     padding: 0 1%;
+     color: #c02d2d;
+    
+ 
+    }
+ nav{
+       width: 100%;
+       padding: 20PX 0;
+       display: flex;
+       align-items: center;
+
+
+ }
+ .logo{
+        width: 100px;
+        cursor: pointer;
+        
+ }
+
+ h2{
+           font-size: 40px;
+           margin-bottom: 15;
+           color: rgb(246, 250, 248);
+
+
+
+}
+
+
+ nav ul{
+            flex: 1;
+ }
+ nav ul li {
+                 display: inline-block;
+                 margin: 10px 20px;
+ }
+
+ nav ul li a{
+               color: rgb(255, 255, 255);
+
+               text-decoration: none; 
+ }
+ nav .btn{
+            color: rgb(0, 0, 0) ;
+            text-decoration: none;
+            border: 1.5px solid  rgb(19, 38, 41); 
+            padding: 10px 30px;
+            background: -webkit-linear-gradient(to right, #1c588a, #12574b);  
+            background: linear-gradient(to right, #15484d, #00ffbf); 
+            border-radius: 120px 60%;
+
+          
+          }
+ .googleplay{
+margin-left: 25px;
+  width: 100px;
+        cursor: pointer;
+
+
+ }
+ .content{
+           margin-top: 12%;
+ }
+ .content h1{
+            font-size: 73px;
+            margin-bottom: 15;
+            color: rgb(255, 255, 255);
+
+
+ }
+ 
+ .content p1{
+             line-height: 22px;
+             font-size: 30px;
+             color: rgb(255, 255, 255);
+             size: 60;
+             margin-inline: 10px;
+             
+          
+ }
+ .content .btn{
+             display: inline-block;
+             margin-top: 30px;
+             background: rgb(14, 186, 212);
+             color: rgb(11, 18, 19);
+             text-decoration: none;
+             padding: 15px 30px;
+             border-radius: 30px;
+             border: ridge;
+
+
+ }
+
+ .content .btn{
+  background: -webkit-linear-gradient(to right, #1c588a, #12574b);  
+  background: linear-gradient(to right, #15484d, #00ffbf); 
+  border: ridge;
+
+ }
+
+
+.content .h2{
+  background: rgb(14, 186, 212);
+  color: rgb(19, 224, 255);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  border: ridge;
+  font-size: 90px;
+
+
+}
+ 
+.btq{
+
+  width: 98%;
+  height: 100vh;
+
+  background-position: center;
+  background-size: cover;
+  padding: 0 1%;
+  color: #c02d2d;
+  background-image: url('file:///E:/web/indus.html#');
+  background-size: cover;
+  
+}
+.btq img {
+
+  
+  width: 98%;
+  height: 80vh;
+
+}

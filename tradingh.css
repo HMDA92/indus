@@ -1,0 +1,160 @@
+body 
+{
+  font-family:sans-serif; 
+  background: -webkit-linear-gradient(to right, #155799, #159957);  
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+
+ 
+  .container{
+ 
+ 
+     width: 98%;
+     height: 1000vh;
+     background-position: center;
+     background-size: cover;
+     padding: 0 1%;
+ 
+ 
+    }
+ nav{
+       width: 100%;
+       padding: 20PX 0;
+       display: flex;
+       align-items: center;
+
+
+ }
+ .logo{
+        width: 100px;
+        cursor: pointer;
+        
+ }
+
+ h2{
+           font-size: 40px;
+           margin-bottom: 15;
+           color: rgb(246, 250, 248);
+
+
+}
+ nav ul{
+            flex: 1;
+ }
+ nav ul li {
+                 display: inline-block;
+                 margin: 10px 20px;
+ }
+
+ nav ul li a{
+               color: rgb(255, 255, 255);
+
+               text-decoration: none; 
+ }
+ nav .btn{
+            color: rgb(21, 38, 41);
+            text-decoration: none;
+            border: 1px solid  rgb(19, 38, 41); 
+            padding: 10px 30px;
+            border-radius: 20px;
+            background: rgb(14, 186, 212);
+ }
+ .content{
+           margin-top: 12%;
+ }
+ .content h1{
+            font-size: 73px;
+            margin-bottom: 15;
+            color: rgb(255, 255, 255);
+
+
+ }
+ .content h1 span{
+            color: rgb(0, 238, 247);
+ }
+ .content p1{
+             line-height: 35px;
+             font-size: 20px;
+             color: rgb(255, 255, 255);
+             size: 60;
+          
+ }
+ .content .btn{
+  display: inline-block;
+  margin-top: 30px;
+  background: -webkit-linear-gradient(to right, #1c588a, #12574b);  
+  background: linear-gradient(to right, #15484d, #00ffbf);  
+  color: rgb(10, 15, 15);
+  text-decoration: none;
+  padding: 15px 30px;
+  border-radius: 40px;
+  border: ridge;
+  size: 20px;
+
+ }
+ .content .googleplay{
+
+   width: 120px;
+   cursor: pointer;
+   
+
+ }
+
+.coin-list{
+            position: absolute;
+            right: 5%;
+            bottom: 50px;
+            display: flex;
+            align-items: center;
+         
+}
+.coin {
+
+        display: flex;
+        align-items:  center;
+        font-size: 11px;
+        margin: 0 5px;
+        color: rgb(185, 183, 39);
+        border: 2px solid #fff;
+        padding: 20px 30px;
+        border-radius: 8px;
+}
+.coin .img{
+
+         width: 35px;
+         margin-right: 10px;
+}
+.coin h3{
+          color: #fff;
+          margin-bottom: 5px;
+}
+
+
+
+ .bts{
+  
+ 
+ 
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+
+ }
+ .bts h3{
+  
+      color: rgb(39, 144, 148);
+      font-size: 50px;
+      margin-bottom: 15;
+      
+ }
+ 
+ .bts h3 p2{
+  
+   color: rgb(19, 38, 41);
+   font-size: 20px;
+   font-size: 20px;
+   
+ }
+ 
